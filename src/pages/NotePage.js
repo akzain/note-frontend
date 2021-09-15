@@ -16,14 +16,14 @@ const NotePage = ({ match, history }) => {
         if (noteId === "new") return;
 
         let response = await fetch(
-            `http://notesschoolzainkamaalahmed.herokuapp.com${noteId}/`
+            `https://notesschoolzainkamaalahmed.herokuapp.com${noteId}/`
         );
         let data = await response.json();
         setNote(data);
     };
 
     let createNote = async () => {
-        fetch(`http://notesschoolzainkamaalahmed.herokuapp.com/`, {
+        fetch(`https://notesschoolzainkamaalahmed.herokuapp.com/`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
@@ -33,7 +33,7 @@ const NotePage = ({ match, history }) => {
     };
 
     let updateNote = async () => {
-        fetch(`http://notesschoolzainkamaalahmed.herokuapp.com/${noteId}/`, {
+        fetch(`https://notesschoolzainkamaalahmed.herokuapp.com/${noteId}/`, {
             method: "PUT",
             headers: {
                 "Content-Type": "application/json",
@@ -43,7 +43,7 @@ const NotePage = ({ match, history }) => {
     };
 
     let deleteNote = async () => {
-        fetch(`http://notesschoolzainkamaalahmed.herokuapp.com/${noteId}/`, {
+        fetch(`https://notesschoolzainkamaalahmed.herokuapp.com/${noteId}/`, {
             method: "DELETE",
             headers: {
                 "Content-Type": "application/json",

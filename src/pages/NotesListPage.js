@@ -10,7 +10,7 @@ const NotesListPage = () => {
     }, []);
 
     let getNotes = async () => {
-        let response = await fetch("http://notesschoolzainkamaalahmed.herokuapp.com/");
+        let response = await fetch("https://notesschoolzainkamaalahmed.herokuapp.com/");
         let data = await response.json();
         setNotes(data);
     };
