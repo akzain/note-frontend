@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/note-frontend/static/css/main.0cebeb1b.chunk.css",
+    "main.js": "/note-frontend/static/js/main.ae1e3bdc.chunk.js",
+    "main.js.map": "/note-frontend/static/js/main.ae1e3bdc.chunk.js.map",
+    "runtime-main.js": "/note-frontend/static/js/runtime-main.4957c856.js",
+    "runtime-main.js.map": "/note-frontend/static/js/runtime-main.4957c856.js.map",
+    "static/js/2.683581a7.chunk.js": "/note-frontend/static/js/2.683581a7.chunk.js",
+    "static/js/2.683581a7.chunk.js.map": "/note-frontend/static/js/2.683581a7.chunk.js.map",
+    "index.html": "/note-frontend/index.html",
+    "static/css/main.0cebeb1b.chunk.css.map": "/note-frontend/static/css/main.0cebeb1b.chunk.css.map",
+    "static/js/2.683581a7.chunk.js.LICENSE.txt": "/note-frontend/static/js/2.683581a7.chunk.js.LICENSE.txt",
+    "static/media/add.ebf59862.svg": "/note-frontend/static/media/add.ebf59862.svg",
+    "static/media/arrow-left.b553318e.svg": "/note-frontend/static/media/arrow-left.b553318e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4957c856.js",
+    "static/js/2.683581a7.chunk.js",
+    "static/css/main.0cebeb1b.chunk.css",
+    "static/js/main.ae1e3bdc.chunk.js"
+  ]
+}
